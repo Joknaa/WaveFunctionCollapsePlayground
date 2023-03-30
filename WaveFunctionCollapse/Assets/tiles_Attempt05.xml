@@ -1,0 +1,27 @@
+<set>
+  <tiles>
+<tile name="Attempt 05/RoomGround01X" symmetry="X" weight="1.0"/>
+<tile name="Attempt 05/WallX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 05/RoomGround02X" symmetry="X" weight="1.0"/>
+<tile name="Attempt 05/HallwayGroundX" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="Attempt 05/WallX 1" right="Attempt 05/WallX 1"/>
+  <neighbor left="Attempt 05/WallX 0" right="Attempt 05/RoomGround01X 0"/>
+  <neighbor left="Attempt 05/RoomGround01X 0" right="Attempt 05/WallX 0"/>
+  <neighbor left="Attempt 05/WallX 0" right="Attempt 05/RoomGround02X 0"/>
+  <neighbor left="Attempt 05/RoomGround02X 0" right="Attempt 05/WallX 0"/>
+  <neighbor left="Attempt 05/WallX 0" right="Attempt 05/HallwayGroundX 0"/>
+  <neighbor left="Attempt 05/HallwayGroundX 0" right="Attempt 05/WallX 0"/>
+  <neighbor left="Attempt 05/WallX 1" right="Attempt 05/RoomGround01X 1"/>
+  <neighbor left="Attempt 05/WallX 1" right="Attempt 05/RoomGround02X 1"/>
+  <neighbor left="Attempt 05/WallX 0" right="Attempt 05/WallX 0"/>
+  <neighbor left="Attempt 05/RoomGround01X 1" right="Attempt 05/WallX 1"/>
+  <neighbor left="Attempt 05/RoomGround02X 1" right="Attempt 05/WallX 1"/>
+  <neighbor left="Attempt 05/WallX 1" right="Attempt 05/HallwayGroundX 1"/>
+  <neighbor left="Attempt 05/HallwayGroundX 1" right="Attempt 05/WallX 1"/>
+  <neighbor left="Attempt 05/RoomGround01X 1" right="Attempt 05/RoomGround01X 1"/>
+  <neighbor left="Attempt 05/RoomGround02X 1" right="Attempt 05/RoomGround02X 1"/>
+  <neighbor left="Attempt 05/RoomGround01X 0" right="Attempt 05/RoomGround01X 0"/>
+  <neighbor left="Attempt 05/RoomGround02X 0" right="Attempt 05/RoomGround02X 0"/>
+	</neighbors>
+</set>

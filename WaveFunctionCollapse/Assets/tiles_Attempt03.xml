@@ -1,0 +1,27 @@
+<set>
+  <tiles>
+<tile name="Attempt 02/SkyX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 02/DirtX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 02/LeafsX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 02/TreeX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 02/GrassX" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="Attempt 02/DirtX 1" right="Attempt 02/DirtX 1"/>
+  <neighbor left="Attempt 02/DirtX 0" right="Attempt 02/GrassX 0"/>
+  <neighbor left="Attempt 02/DirtX 1" right="Attempt 02/GrassX 1"/>
+  <neighbor left="Attempt 02/LeafsX 0" right="Attempt 02/SkyX 0"/>
+  <neighbor left="Attempt 02/LeafsX 1" right="Attempt 02/SkyX 1"/>
+  <neighbor left="Attempt 02/SkyX 1" right="Attempt 02/LeafsX 1"/>
+  <neighbor left="Attempt 02/GrassX 0" right="Attempt 02/DirtX 0"/>
+  <neighbor left="Attempt 02/SkyX 0" right="Attempt 02/LeafsX 0"/>
+  <neighbor left="Attempt 02/SkyX 1" right="Attempt 02/SkyX 1"/>
+  <neighbor left="Attempt 02/TreeX 1" right="Attempt 02/LeafsX 1"/>
+  <neighbor left="Attempt 02/TreeX 1" right="Attempt 02/TreeX 1"/>
+  <neighbor left="Attempt 02/SkyX 0" right="Attempt 02/TreeX 0"/>
+  <neighbor left="Attempt 02/TreeX 0" right="Attempt 02/SkyX 0"/>
+  <neighbor left="Attempt 02/LeafsX 0" right="Attempt 02/TreeX 0"/>
+  <neighbor left="Attempt 02/SkyX 0" right="Attempt 02/SkyX 0"/>
+  <neighbor left="Attempt 02/DirtX 0" right="Attempt 02/DirtX 0"/>
+  <neighbor left="Attempt 02/TreeX 0" right="Attempt 02/LeafsX 0"/>
+	</neighbors>
+</set>

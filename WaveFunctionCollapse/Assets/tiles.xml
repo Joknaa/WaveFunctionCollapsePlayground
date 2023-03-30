@@ -1,0 +1,22 @@
+<set>
+  <tiles>
+<tile name="Attempt 06/SeaX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 06/Sea_SandX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 06/Sand_GrassX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 06/Grass_DarkGrassX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 06/DarkGrassX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 06/GrassX" symmetry="X" weight="1.0"/>
+<tile name="Attempt 06/SandX" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="Attempt 06/Sea_SandX 0" right="Attempt 06/SandX 0"/>
+  <neighbor left="Attempt 06/Sand_GrassX 0" right="Attempt 06/GrassX 0"/>
+  <neighbor left="Attempt 06/Grass_DarkGrassX 0" right="Attempt 06/DarkGrassX 0"/>
+  <neighbor left="Attempt 06/SeaX 0" right="Attempt 06/Sea_SandX 0"/>
+  <neighbor left="Attempt 06/SandX 0" right="Attempt 06/Sand_GrassX 0"/>
+  <neighbor left="Attempt 06/GrassX 0" right="Attempt 06/Grass_DarkGrassX 0"/>
+  <neighbor left="Attempt 06/SeaX 1" right="Attempt 06/SeaX 1"/>
+  <neighbor left="Attempt 06/Sea_SandX 1" right="Attempt 06/Sea_SandX 1"/>
+  <neighbor left="Attempt 06/Sand_GrassX 1" right="Attempt 06/Sand_GrassX 1"/>
+  <neighbor left="Attempt 06/Grass_DarkGrassX 1" right="Attempt 06/Grass_DarkGrassX 1"/>
+	</neighbors>
+</set>
