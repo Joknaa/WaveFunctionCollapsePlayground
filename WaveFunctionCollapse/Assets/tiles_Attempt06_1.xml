@@ -1,9 +1,9 @@
 <set>
   <tiles>
 <tile name="Attempt 06/GrassX" symmetry="X" weight="1.0"/>
-<tile name="Attempt 06/SandX" symmetry="X" weight="0.5"/>
+<tile name="Attempt 06/SandX" symmetry="X" weight="1.0"/>
 <tile name="Attempt 06/DarkGrassX" symmetry="X" weight="1.0"/>
-<tile name="Attempt 06/SeaX" symmetry="X" weight="0.5"/>
+<tile name="Attempt 06/SeaX" symmetry="X" weight="1.0"/>
 	</tiles>
 <neighbors>  <neighbor left="Attempt 06/SandX 1" right="Attempt 06/SeaX 1"/>
   <neighbor left="Attempt 06/GrassX 1" right="Attempt 06/SandX 1"/>
